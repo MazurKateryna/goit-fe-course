@@ -15,37 +15,56 @@ html {
 
 /*navigation menu*/
 .site-navigation {
+    margin: 0;
+    padding: 0;
     list-style: none;
+    font-size: 0;
+    text-align: center;
+    margin-bottom: 100px;
 }
 .site-navigation a:hover, 
 .site-navigation a:focus {
     color: #29b0f5;
 } 
-li {
-     display: inline-block;
-     margin: 75px 0px 100px 0px;
+.site-navigation li {
+    display: inline-block;
+    margin-right: 60px;
+    margin-top: 73px;
 }
- .link-1 {
-     margin-left: 160px;
+.site-navigation li:last-child {
+    margin-right: 0;
+} 
+.link-1 {
+    font-size: 14px;
+    text-align: center;
 }
 .link-2 {
-    margin-left: 120px;
+    font-size: 14px;
+    text-align: center;
 }
 .link-3 {
-    margin-left: 100px;
+    font-size: 14px;
+    text-align: center;
 }
 .link-4 {
-    margin-left: 97px;
+    font-size: 14px;
+    text-align: center;
 }
 
+
 /*section menu*/
+.section-main {
+    font-size: 0;
+    margin-top: 0;
+}
 .article-main {
     width: 420px;
     margin: 0;
     padding: 0;
+    font-size: 0;
     display: inline-block;
+    margin-top: 0;
 }
-
 .paragraf {
     font-size: 12px;
     margin-top: 30px;
@@ -61,32 +80,37 @@ h2 {
     margin-top: 40px;
     color: #626262;
 }
-
+.item-1 {
+    margin-right: 60px;
+}
 .item-2 {
-    margin-left: 50px;
-    padding: 0;
-    
+    margin-right: 0;
 }
 .item-3 {
     margin-top: 135px;
+    margin-right: 60px;
 }
 .item-4 {
-    margin-left: 50px;
+    margin-right: 0;
     padding: 0;
-   
 }
 .item-5 {
     margin-top: 135px;
+    margin-right: 60px;
 }
-
 .item-6 {
-    margin-left: 50px;
-    padding: 0;
-    
+    margin-right: 0;
+    padding: 0; 
 }
 .button {
     width: 162px;
     height: 58px;
-    display: inline-block;
-    margin: 58px 0 71px 358px; 
+    color: #626262;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.button:hover {
+    color: #29b0f5;
 }
