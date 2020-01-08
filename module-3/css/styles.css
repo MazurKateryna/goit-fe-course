@@ -13,7 +13,11 @@ html {
     width: 900px;
     margin: 0 auto;
     margin-top: 74px;
-    margin-bottom: 90px;
+    margin-bottom: 50px;
+}
+header {
+    margin-top: 74px;
+    /*margin-bottom: 50px;*/
 }
 
 /*navigation menu*/
@@ -122,6 +126,7 @@ h2 {
     width: 162px;
     height: 58px;
     color: #626262;
+    background-color: #fff;
     display: block;
     text-align: center;
     margin: 0 auto;

@@ -5,14 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-   <header class="container">
-        <div class="logo">
+   <header class="page-header">
+        <nav class="container">
+            <a href="#" class="logo">
             <img src="img/mart.jpg" alt="LOGO">
-        </div>
-        <nav>
-            <ul class="site-navigation">
+            </a>
+        
+            <ul class="site-navigation clearfix">
                 <li><a class="link-1" href="">HOME</a></li>
                 <li><a class="link-2" href="">ABOUT US</a></li>
                 <li><a class="link-3" href="">PAGE</a></li>
@@ -23,43 +26,96 @@
         </nav>
    </header>
    <main class="container"> 
-        <section>
-            <h2>FEATURED PRODUCTS</h2>
-            <div class="block1">
-                <img src="img/product1.jpg" alt="Product1">
-                <p class="name">BLUE TSHIRT</p>
-                <p class="prise">$26</p>
-            </div>
-            <div class="block2">
-                <img src="img/product2.jpg" alt="Product2">
-                <p class="name">WOMAN SHIRT</p>
-                <p class="prise">$31</p>
-            </div>
-
-
-
+        <section class="featured">
+            <blockquote>
+                <h2>FEATURED PRODUCTS</h2>
+            </blockquote>
+            <ul class="featured-list clearfix">
+            <li class="featured-list-item">
+                <img src="img/1-1.png" alt="Product1">
+                <h3 class="name">BLUE TSHIRT
+                    <p class="prise">$26</p>
+                </h3>
+            </li>
+            <li class="featured-list-item">
+                <img src="img/product2.png" alt="Product2">
+                <h3 class="name">WOMAN SHIRT
+                    <p class="prise">$31</p>
+                </h3>
+         </li>
+            <li class="featured-list-item">
+                <img src="img/product3.png" alt="Product3">
+                <h3 class="name">YELLOW TSHIRT
+                    <p class="prise">21$</p>
+                </h3>
+            </li>
+            <li class="featured-list-item">
+                <img src="img/product4.png" alt="Product4">
+                <h3 class="name">COOL LINGERIE
+                    <p class="prise">56$</p>
+                </h3>
+            </li>
+            <li class="featured-list-item">
+                <img src="img/product5.png" alt="Product5">
+                <h3 class="name">BLUE TSHIRT
+                    <p class="prise">26$</p>
+                </h3>
+            </li>
+            <li class="featured-list-item">
+                <img src="img/product6.png" alt="Product6">
+                <h3 class="name">WOMAN SHIRT
+                    <p class="prise">31$</p>
+                </h3>
+            </li>
+            <li class="featured-list-item">
+                <img src="img/product7.png" alt="Product7">
+                <h3 class="name">YELLOW TSHIRT
+                    <p class="prise">21$</p>
+                </h3>
+            </li>
+            <li class="featured-list-item">
+                <img src="img/product8.png" alt="Product8">
+                <h3 class="name">COOL LINGERIE
+                    <p class="prise">56$</p>
+                </h3>
+            </li>
+            </ul>
         </section>
-        <section>
-            <h2></h2>
-
-
+       
+        <section class="news-section">
+            <blockquote>
+                <h2>LATEST NEWS</h2>
+            </blockquote>
+            <ul class="news-list">
+                <li class="news-item">
+                    <img src="img/slide1.png" alt="Map">
+                     <blockquote>
+                        <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore, laborum.</h3>
+                    </blockquote>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore mollitia voluptatem magnam necessitatibus at hic nesciunt officiis officia vitae aliquam, debitis eligendi quasi deleniti ut dicta eaque similique maxime sequi.
+                    </p>
+                    <button>Read More</button>
+                </li>
+                <li class="news-item">
+                    <img src="img/slide2.png" alt="Girls">
+                    <blockquote>
+                        <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore, laborum.</h3>
+                    </blockquote>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum vero incidunt quasi non eos consequuntur enim aperiam. Doloribus aperiam modi est, similique earum possimus unde consequuntur in quaerat ad pariatur?
+                    </p>
+                    <button>Read More</button>
+                </li>
+                <li class="news-item">
+                    <img src="img/slide3.png" alt="Bus">
+                    <blockquote>
+                        <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore, laborum.</h3>
+                    </blockquote>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo odio ipsam ratione reiciendis distinctio qui ducimus dolorem repellendus. Facilis molestiae porro dolorem consequuntur aspernatur eum possimus facere quae dolores ullam.
+                    </p>
+                    <button>Read More</button>
+                </li>
+            </ul>
         </section>
-
-
-
-
-
-
-
    </main>
-
-
-
-
-
-
-
-
-
 </body>
 </html>
