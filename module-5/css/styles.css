@@ -1,0 +1,53 @@
+/*my page*/
+html {
+    box-sizing: border-box;
+    
+}
+*, 
+*::before,  
+*::after {
+    box-sizing: inherit;
+
+
+/* navigation menu*/
+/*.logo {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 500;
+    color: #cccccc ;
+}
+.logo::first-letter {
+    color: #1abc9c;
+}
+.site-navigation {
+    float: right;
+    width: 490px;
+    margin: 0;
+    padding: 0;  
+    list-style: none;
+    vertical-align: middle;
+    line-height: 36px;*/
+}
+.site-navigation li {
+    float: left;
+    color: #000000;
+}
+.site-navigation li:not(:last-child){
+   margin-right: 34px; 
+}
+.link {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.site-navigation a:hover, 
+.site-navigation a:focus {
+    color: #29b0f5;
+}
