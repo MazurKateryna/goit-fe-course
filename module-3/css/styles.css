@@ -16,8 +16,7 @@ html {
     margin-bottom: 50px;
 }
 header {
-    margin-top: 74px;
-    padding-top: 4px;
+    padding-top: 74px;
 }
 
 /*navigation menu*/
@@ -63,6 +62,7 @@ header {
     font-size: 0;
     margin-top: 0;
     padding: 0;
+    padding-bottom: 50px;
 }
 .article-main {
     width: 420px;
@@ -132,9 +132,8 @@ h2 {
     color: #626262;
     background-color: #fff;
     display: block;
-    text-align: center;
     margin: 0 auto;
-    margin-bottom: 50px;
+    text-align: center;
 }
 .button:hover {
     color: #29b0f5;

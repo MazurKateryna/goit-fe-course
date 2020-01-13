@@ -1,7 +1,6 @@
 /*my page*/
 html {
-    box-sizing: border-box;
-    
+    box-sizing: border-box; 
 }
 *, 
 *::before,  
@@ -10,7 +9,7 @@ html {
 }
 
 body{
-    font-family: "Open Sans" "Roboto";
+    font-family: 'Open Sans', 'Roboto';
 }
 img {
     display: block;
@@ -29,13 +28,13 @@ img {
 }
 .page-header {
     padding-top: 30px;
-    padding-bottom: 106px;
+    padding-bottom: 100px;
 }
 .logo {
     display: inline-block;
     margin: 0;
     padding: 0;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 30px;
     font-weight: 500;
     color: #cccccc ;
@@ -83,7 +82,7 @@ img {
     font-family: Roboto;
     padding: 0;
     margin: 0;
-    margin-bottom: 30px;
+    margin-bottom: 86px;
     font-size: 48px;
     text-align: center;
 }
@@ -94,8 +93,7 @@ h2::after {
     height: 6px;
     background-color: #4EC6AB;
     margin: 0 auto;
-    margin-bottom: 74px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .featured-list {
    list-style: none; 
@@ -115,6 +113,9 @@ h2::after {
 }
 .featured-list-item:nth-child(4n) {
     margin-right: 0;
+}
+.featured-list-item:nth-last-child(-n+4) {
+    margin-bottom: 0;  
 }
 .photo {
     display: block;
@@ -138,7 +139,6 @@ h2::after {
     top: 100%;                         
     transform: translate(0, -100%)
 }
-
 .name {
     float: left;
     font-size: 18px;
@@ -151,7 +151,7 @@ h2::after {
     color: #ffffff;
     background-color: #323232;    
 }
-.name:hover{
+.featured-list-item a:hover .name{
     background-color: #1abc9c;
 }
 .prise {
@@ -167,8 +167,8 @@ h2::after {
     margin: 0;
     padding: 0;
 }
-.prise:hover {
-    background-color: #1abc9c;
+.featured-list-item a:hover .prise {
+    background-color: #4CE6AB;
 }
 
 
@@ -178,10 +178,10 @@ h2::after {
     padding: 0;
     font-family: Roboto;
     margin-top: 100px;
+    margin-bottom: 74px;
     font-size: 48px;
     text-align: center;    
 }
-
 .news-list {
     margin: 0;
     padding: 0;
@@ -199,6 +199,12 @@ h2::after {
     background-color: #949494;
     width: 340px;
     height: 260px;
+    margin-bottom: 10px;
+}
+.news-item h3 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
 }
 .news-item h3::after {
     content: '';
@@ -207,18 +213,25 @@ h2::after {
     height: 4px;
     background-color: #4EC6AB;
     margin-bottom: 30px;
-    margin-top: 10px; 
+    margin-top: 10px;
 }
-button {
-    width: 160px;
-    height: 50px;
+.news-item p {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+}
+.info {
     margin: 0;
     margin-bottom: 46px;
-    padding: 0;
+    padding: 10px 30px;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
     background-position: center;
     color: #e7f7f4;
     background-color: #4ec6ab;
+    background-size: contain;
 }
-button:hover {
+.news-item a:hover {
     background-color: #30907b;
 }
