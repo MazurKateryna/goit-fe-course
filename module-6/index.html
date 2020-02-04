@@ -4,9 +4,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="page-header">
+    <header class="container">
         <nav class="navigation">
             <a href="#"><p class="Logo">MoGo</p></a>
             <ul class="navigation-menu">
@@ -19,39 +22,40 @@
         </nav>
     </header>
    
-    <main>
+    <main class="container">
         <section class="SERVICE">
             <div class="title">
                 <h3>We work with</h3>
                 <h2>AMAZING SERVICES</h2>
             </div>
             <div class="service-menu">
-                <li>
-                    <p class="list-title">PHOTOGRAPHY</p>
-                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, provident.</p>
-                </li>
-                <li>
-                    <p class="list-title">WEB DESIGN</p>
-                    <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, ipsam.</p>
-                </li>
-                <li> 
-                    <p class="list-title">CREATIVITY</p>
-                    <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt, voluptatem.</p>
-                </li>
-                <li> 
-                    <p class="list-title">SEO</p>
-                    <p class="text"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem, inventore!</p>
-                </li>
-                <li>
-                    <p class="list-title">CSS/HTML</p>
-                    <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, rem!</p>
-                </li>
-                <li>
-                    <p class="list-title">DIGITAL</p>
-                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, et.
-                    </p>
-                </li>
-
+                <ul class="list-style">
+                    <li class="list-style-item block1">
+                        <p class="list-title">PHOTOGRAPHY</p>
+                        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, provident.</p>
+                    </li>
+                    <li class="list-style-item block2">
+                        <p class="list-title">WEB DESIGN</p>
+                        <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, ipsam.</p>
+                    </li>
+                    <li class="list-style-item block3"> 
+                        <p class="list-title">CREATIVITY</p>
+                        <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt, voluptatem.</p>
+                    </li>
+                    <li class="list-style-item block4"> 
+                        <p class="list-title">SEO</p>
+                        <p class="text"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem, inventore!</p>
+                    </li>
+                    <li class="list-style-item block5">
+                        <p class="list-title">CSS/HTML</p>
+                        <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, rem!</p>
+                    </li>
+                    <li class="list-style-item block6">
+                        <p class="list-title">DIGITAL</p>
+                        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, et.
+                        </p>
+                    </li>
+                </ul>
             </div>
         </section>
         <section class="TEAM">
@@ -61,19 +65,25 @@
             </div>
             <div>
                 <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem veritatis officia cum facilis ipsam ullam id, suscipit distinctio alias laboriosam mollitia, minima autem reprehenderit culpa. Assumenda delectus libero id quos?</p>
-                <ul>
-                    <li>
-                        <img src="../module-6/image/photo1.png" alt="Photo1" width="380px" height="468px">
+                <ul class="team-list">
+                    <li class="team-list-item">
+                        <figure class="picture">
+                            <img src="../module-6/image/photo1.png" alt="Photo1" width="360px" height="468px">
+                        </figure>
                         <p class="name"> MATTHEW DIX</p>
                         <p class="position">Graphic Design</p>
                     </li>
-                    <li>
-                        <img src="../module-6/image/photo2.png" alt="Photo2">
+                    <li class="team-list-item">
+                        <figure class="picture">
+                            <img src="../module-6/image/photo2.png" alt="Photo2" width="360px" height="468px">
+                        </figure>
                         <p class="name">CRISTOPHER CAMPBELL</p>
                         <p class="position">Branding/UX design</p>
                     </li>
-                    <li>
-                        <img src="../module-6/image/photo3.png" alt="Photo3">
+                    <li class="team-list-item">
+                        <figure class="picture">
+                            <img src="../module-6/image/photo3.png" alt="Photo3" width="360px" height="468px">
+                        </figure>
                         <p class="name">MICHAEL FERTIG</p>
                         <p class="position">Developer</p>
                     </li>
@@ -82,7 +92,10 @@
         </section>
     </main>
     <footer>
+        <div>
+            <p> <span></span></p>
 
+        </div>
     </footer>
 
 </body>
