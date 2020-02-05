@@ -1,0 +1,100 @@
+/*my page*/
+html {
+    box-sizing: border-box; 
+}
+
+*, 
+*::before,  
+*::after {
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Montserrat', 'Lobster' /*'Roboto', 'Kaushan Script'*/;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 936px;
+    margin:  0 auto; 
+    padding: 0;
+}
+
+/*navigation*/
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 100px;
+}
+
+.navigation a {
+    font-size: 30px;
+    color: #fdd135;
+    font-family: "Lobster";
+    font-weight: 400;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-menu li {
+    padding: 34px;
+}
+
+.navigation-menu a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #000000;
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-align: center;
+}
+
+.navigation-menu a:hover {
+    color: #fdd135;
+}
+
+
+
+
+
+/*visually-hidden helper*/
+.visually-hidden:not(:focus):not(:active),
+input[type='checkbox'].visually-hidden,
+input[type='radio'].visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+

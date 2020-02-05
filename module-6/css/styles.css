@@ -31,7 +31,6 @@ img {
     justify-content: space-between;
     margin: 0;
     padding: 0;
-    margin-bottom: 100px;
 }
 
 .navigation a {
@@ -44,8 +43,15 @@ img {
     padding: 0;
 }
 
+.logo {
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+}
+
 .navigation-menu {
     display: flex;
+    justify-content: flex-end;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -56,6 +62,7 @@ img {
 }
 
 .navigation-menu a {
+    display: block;
     text-decoration: none;
     font-size: 14px;
     color: #95e1d3;
@@ -68,13 +75,18 @@ img {
     color: #f38181;
 }
 
-.navigation-menu a:hover::after  {
+.navigation-menu a::after  {
     content: '';
     display: block;
-    margin: 0 auto;
     background-color: #f38181;
     height: 3px;
-    width: 40px;
+    transform: scaleX(0);
+    transition: transform 200ms ease-in-out;
+}
+
+.navigation-menu a:hover::after, 
+.navigation-menu a:focus::after {
+    transform: scaleX(1);
 }
 
 /*servive menu*/
@@ -83,7 +95,7 @@ img {
     padding: 0;
 }
 
-.title h3 {
+.title h2 span {
     font-size: 24px;
     color: #333333;
     font-family: 'Kaushan Script';
@@ -98,7 +110,7 @@ img {
     font-family: "Montserrat";
     font-weight: 700;
     text-align: center; 
-    padding-bottom: 60px;   
+    margin-bottom: 60px;   
 }
 
 .title h2::after {
@@ -296,6 +308,9 @@ img {
     background-position: center;
 }
 
+.team-list-item:hover .team-social {
+    box-shadow: 10px 10px #8fdfd0;
+}
 .name {
     font-size: 14px;
     list-style: none;
@@ -303,6 +318,8 @@ img {
     font-family: "Montserrat";
     font-weight: 400;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 .position {
@@ -313,6 +330,8 @@ img {
     font-weight: 300;
     font-style: italic;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 .bottom {
