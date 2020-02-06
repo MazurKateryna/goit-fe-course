@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,7 +12,9 @@
 <body>
     <header class="container">
         <nav class="navigation">
-            <a href="#"><p class="Logo">Golden</p></a>
+            <p class="Logo">
+                <a href="#">Golden</a>
+            </p>
             <ul class="navigation-menu">
                 <li> <a href="#"> HOME</a></li>
                 <li> <a href="#"> SERVICES</a></li>
@@ -22,15 +25,15 @@
         </nav>
     </header>
    
-    <main class="container">
-        <section>
-            <div>
+    <main>
+        <section class="feature container">
+            <div class="feature-title">
                 <h2>SERVICES</h2>
-                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <p class="text">Lorem ipsum dolor sit amet consectetur.</p>
             </div>
-            <div>
+            <div class="feature-list">
                 <ul>
-                    <li>
+                    <li >
                         <h3>E-Commerce </h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto vero praesentium unde tenetur dignissimos, quis cum omnis eveniet!</p>
                     </li>
@@ -45,17 +48,19 @@
                 </ul>
             </div>
         </section>
-        <section>
-            <div>
+        <section class="backround">
+            <div class="contact container">
                 <h2>CONTACT US</h2>
                 <p>Lorem ipsum dolor sit amet consectetur.</p>
             </div>
-            <div>
-                <input type="text" id="fname" name="firstname" placeholder="YOUR NAME*">
-                <input type="email" name="email-x" placeholder="YOUR EMAIL*"> 
-                <textarea id="subject" name="subject" placeholder="SUBJECT"></textarea>
-                <textarea name="comment" placeholder="YOUR MESSAGE*" cols="40" rows="7"></textarea>
-                <input type="submit" value="SEND MESSAGE">
+            <div class="modal container">
+                <form action="#">
+                    <input type="text" id="fname" name="firstname" placeholder="YOUR NAME*" required>
+                    <input type="email" name="email-x" placeholder="YOUR EMAIL*" required> 
+                    <textarea id="subject" name="subject" placeholder="SUBJECT"></textarea>
+                    <textarea name="comment" placeholder="YOUR MESSAGE*" cols="40" rows="7" required></textarea>
+                    <button type="submit">SEND MESSAGE</button>
+                </form>
             </div>
         </section>
     </main>
