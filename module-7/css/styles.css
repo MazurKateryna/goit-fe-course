@@ -69,35 +69,129 @@ img {
 }
 
 /*section feature*/
+.feature-title {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 100px;
+}
 
+.feature-title h2 {
+    font-size: 40px;
+    color: #222222;
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
 
+.feature-title p {
+    font-size: 16px;
+    color: #777777;
+    font-family: "Baskervville";
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
 
+.feature-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 
+.feature-item {
+    width: 280px;
+    height: 230px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 80px;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.feature-item h3 {
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #222222;
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-align: center;
+}
+
+.feature-item p {
+    font-size: 14px;
+    color: #777777;
+    font-family: "Roboto Slab";
+    font-weight: 400;
+    text-align: center;
+}
+
+.item-1 {
+    background-image: url(../image/icons/Icon-Basket\ \(1\).png);
+}
+
+.item-2 {
+    background-image: url(../image/icons/Group1.png);
+}
+
+.item-3 {
+    background-image: url(../image/icons/Icon-Locked\ \(1\).png);
+}
 
 /*section backround*/
-.backround {
+.part-2 {
     background-image: url(../image/bcg.jpg);
     min-width: 100vw;
     height: auto;
 }
 
-
-
-
-/*visually-hidden helper*/
-.visually-hidden:not(:focus):not(:active),
-input[type='checkbox'].visually-hidden,
-input[type='radio'].visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
+.contact {
+    margin: 0 auto;
     padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+    padding-top: 100px;
+}
+
+.contact h2 {
+    font-size: 40px;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.contact p {
+    font-size: 16px;
+    color: #ffffff;
+    font-family: "Baskervville";
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.modal {
+    display: flex;
+}
+
+.registration {
+   justify-content: start;
+}
+
+.comment {
+    justify-content: end;
+}
+
+.btm-submit {
+    margin: 0 auto;
 }
 
 
