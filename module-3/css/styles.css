@@ -3,6 +3,7 @@ html {
     box-sizing: border-box;
     font-family: 'Playfair Display Regular';
 }
+
 *, 
 *::before,  
 *::after {
@@ -15,6 +16,7 @@ html {
     margin-top: 74px;
     margin-bottom: 50px;
 }
+
 header {
     padding-top: 74px;
 }
@@ -27,35 +29,41 @@ header {
     font-size: 0;
     text-align: center;
 }
+
 .site-navigation a:hover, 
 .site-navigation a:focus {
     color: #29b0f5;
 } 
+
 .site-navigation li {
     display: inline-block;
     text-decoration: none;
     margin-right: 60px;
 }
+
 .site-navigation li:last-child {
     margin-right: 0;
 } 
+
 .link-1 {
     font-size: 14px;
     text-align: center;
 }
+
 .link-2 {
     font-size: 14px;
     text-align: center;
 }
+
 .link-3 {
     font-size: 14px;
     text-align: center;
 }
+
 .link-4 {
     font-size: 14px;
     text-align: center;
 }
-
 
 /*section menu*/
 .section-main {
@@ -64,6 +72,7 @@ header {
     padding: 0;
     padding-bottom: 50px;
 }
+
 .article-main {
     width: 420px;
     margin: 0;
@@ -72,9 +81,11 @@ header {
     display: inline-block;
     margin-top: 0;
 }
+
 .photo {
     margin-bottom: 30px;
 }
+
 .paragraf {
     font-size: 12px;
     margin: 0;
@@ -88,32 +99,38 @@ h2 {
     margin-bottom: 24px;
     color: #626262;
 }
+
 .text {
     font-size: 14px;
     margin: 0;
     color: #626262;
 }
+
 .item-1 {
     margin: 0;
     margin-bottom: 106px;
     margin-right: 60px;
     padding: 0;
 }
+
 .item-2 {
     margin: 0;
     margin-bottom: 106px;
     padding: 0;
 }
+
 .item-3 {
     margin: 0;
     margin-bottom: 106px;
     margin-right: 60px;
     padding: 0;
 }
+
 .item-4 {
     margin: 0;
     margin-bottom: 106px;
-    padding: 0;
+    padding:
+     0;
 }
 .item-5 {
     margin: 0;
@@ -121,10 +138,12 @@ h2 {
     margin-right: 60px;
     padding: 0;
 }
+
 .item-6 {
     margin: 0;
     padding: 0; 
 }
+
 .button {
     width: 162px;
     height: 58px;
@@ -135,6 +154,7 @@ h2 {
     margin: 0 auto;
     text-align: center;
 }
+
 .button:hover {
     color: #29b0f5;
 }
