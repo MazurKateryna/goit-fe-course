@@ -21,14 +21,14 @@ img {
     content: '';
     clear: both;
 }
-.container {
+.wrapper {
     width: 1110px;
     margin: 0 auto;
     padding: 0;
 }
 .page-header {
     padding-top: 30px;
-    padding-bottom: 100px;
+    padding-bottom: 110px;
 }
 .logo {
     display: inline-block;
