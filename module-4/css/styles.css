@@ -139,6 +139,7 @@ h2::after {
     display: block;
     position: absolute;
     margin: auto;
+    cursor: pointer;
     left: 0;
     top: 0;
     bottom: 0;
@@ -172,7 +173,7 @@ h2::after {
     font-family: "Roboto";
 }
 
-.featured-list-item a:hover .name{
+.featured-list-item:hover .name{
     background-color: #1abc9c;
 }
 
@@ -189,7 +190,7 @@ h2::after {
     margin: 0;
 }
 
-.featured-list-item a:hover .prise {
+.featured-list-item:hover .prise {
     background-color: #7fd9c7;
 }
 
