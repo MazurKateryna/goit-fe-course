@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,127 +7,132 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="page-header">
-        <nav class="container">
-            <a href="#">
-                <p class="logo">MART</p>
-            </a>
-            <ul class="site-navigation clearfix">
-                <li><a class="link" href="">HOME</a></li>
-                <li><a class="link" href="">ABOUT US</a></li>
-                <li><a class="link" href="">PAGE</a></li>
-                <li><a class="link" href="">SHOP</a></li>
-                <li><a class="link" href="">BLOG</a></li>
-                <li><a class="link" href="">CONTACT US</a></li>
-            </ul>
-        </nav>
-   </header>
-   <main class="wrapper">
-        <section class="slider">
-            <div class="slider-card">
-                <img src="img/slide4.png" alt="Slide">        
-                <div class="slider-text">
-                    <h2 class="slider-title">AFFORDABLE PARIS TOURS</h2>
-                    <p class="slider-desc">CITY TOURS / TOUR TICKETS / TOUR GUIDES</p>
+    <div class="wrapper">
+        <header class="content" >
+            <nav class="page-header">
+                <a href="#">
+                    <p class="logo">MART</p>
+                </a>
+                <ul class="site-navigation clearfix">
+                    <li><a class="link" href="#">HOME</a></li>
+                    <li><a class="link" href="#">ABOUT US</a></li>
+                    <li><a class="link" href="#">PAGE</a></li>
+                    <li><a class="link" href="#">SHOP</a></li>
+                    <li><a class="link" href="#">BLOG</a></li>
+                    <li><a class="link" href="#">CONTACT US</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="slider">
+                <img src="img/slide4.png" class="slider-img" alt="Slide">        
+                <div class="slider-card">
+                    <div class="slider-text">
+                        <h2 class="slider-title">AFFORDABLE PARIS TOURS</h2>
+                        <p class="slider-desc">CITY TOURS / TOUR TICKETS / TOUR GUIDES</p>
+                    </div>
+                    <div class="slider-bottom"> 
+                        <button class="slider-ctrl slider-left">
+                            <span class="visually-hidden">Left</span>
+                        </button>
+                        <button class="slider-ctrl slider-right">
+                            <span class="visually-hidden">Right</span>
+                        </button>
+                    </div> 
+                </div>        
+            </section>
+            <section class="collection">
+                <div class="content clearfix">
+                    <h2 class="title">NEW COLLECTION</h2>
+                    <ul class="featured-list">
+                        <li class="featured-list-item">
+                            <div class="photo">
+                                <img src="img/category-1.png" alt="Product1">
+                                <div class="overlay clearfix">    
+                                    <ul class="overlay-icons">
+                                        <li><button class="icon-1">Like</button></li>
+                                        <li><button class="icon-2">Lines</button></li>
+                                        <li><button class="icon-3">Clock</button></li>
+                                        <li><button class="icon-4">ADD TO CART</button></li> 
+                                    </ul>
+                                </div>
+                                <a href="#">
+                                    <div class="bottom clearfix">
+                                        <h3 class="name">BLUE TSHIRT</h3>
+                                        <p class="prise">$26</p>  
+                                    </div>  
+                                </a>             
+                            </div>
+                        </li>
+                        <li class="featured-list-item">
+                            <div class="photo">
+                                <img src="img/category-2.png" alt="Product2">
+                                <div class="overlay clearfix">    
+                                    <ul class="overlay-icons">
+                                        <li><button class="icon-1">Like</button></li>
+                                        <li><button class="icon-2">Lines</button></li>
+                                        <li><button class="icon-3">Clock</button></li>
+                                        <li><button class="icon-4">ADD TO CART</button></li> 
+                                    </ul>
+                                </div>                    
+                                <a href="#">
+                                    <div class="bottom clearfix">
+                                        <h3 class="name">WOMAN SHIRT</h3>
+                                        <p class="prise">$31</p>  
+                                    </div>
+                                </a>    
+                            </div>
+                        </li>
+                        <li class="featured-list-item">
+                            <div class="photo">
+                                <img src="img/category-3.png" alt="Product3">
+                                <div class="overlay clearfix">    
+                                    <ul class="overlay-icons">
+                                        <li><button class="icon-1">Like</button></li>
+                                        <li><button class="icon-2">Lines</button></li>
+                                        <li><button class="icon-3">Clock</button></li>
+                                        <li><button class="icon-4">ADD TO CART</button></li>
+                                    </ul>
+                                </div>     
+                                <a href="#">                        
+                                    <div class="bottom clearfix">
+                                        <h3 class="name">YELLOW TSHIRT</h3>
+                                        <p class="prise">21$</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="featured-list-item">
+                            <div class="photo">
+                                <img src="img/category-4.png" alt="Product4">
+                                <div class="overlay clearfix">    
+                                    <ul class="overlay-icons">
+                                        <li><button class="icon-1">Like</button></li>
+                                        <li><button class="icon-2">Lines</button></li>
+                                        <li><button class="icon-3">Clock</button></li>
+                                        <li><button class="icon-4">ADD TO CART</button></li> 
+                                    </ul>
+                                </div>
+                                <a href="#">                        
+                                    <div class="bottom clearfix">
+                                        <h3 class="name">COOL LINGERIE</h3>
+                                        <p class="prise">56$</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-                <div class="slider-bottom"> 
-                    <button class="slider-ctrl slider-left">
-                        <span class="visually-hidden">Left</span>
-                    </button>
-                    <button class="slider-ctrl slider-right">
-                        <span class="visually-hidden">Right</span>
-                    </button>
-                </div> 
-            </div>        
-        </section>
-        <section class="collection">
-            <h2 class="title">NEW COLLECTION</h2>
-            <ul class="featured-list container">
-                <li class="featured-list-item">
-                    <div class="photo">
-                        <img src="img/category-1.png" alt="Product1">
-                        <div class="overlay clearfix">    
-                            <ul class="overlay-icons">
-                                <li><button class="icon-1">Like</button></li>
-                                <li><button class="icon-2">Lines</button></li>
-                                <li><button class="icon-3">Clock</button></li>
-                                <li><button class="icon-4">ADD TO CART</button></li> 
-                            </ul>
-                        </div>
-                        <a href="#">
-                            <div class="bottom clearfix">
-                                <h3 class="name">BLUE TSHIRT</h3>
-                                <p class="prise">$26</p>  
-                            </div>  
-                        </a>             
-                    </div>
-                </li>
-                <li class="featured-list-item">
-                    <div class="photo">
-                        <img src="img/category-2.png" alt="Product2">
-                        <div class="overlay clearfix">    
-                            <ul class="overlay-icons">
-                                <li><button class="icon-1">Like</button></li>
-                                <li><button class="icon-2">Lines</button></li>
-                                <li><button class="icon-3">Clock</button></li>
-                                <li><button class="icon-4">ADD TO CART</button></li> 
-                            </ul>
-                        </div>                    
-                        <a href="#">
-                            <div class="bottom clearfix">
-                                <h3 class="name">WOMAN SHIRT</h3>
-                                <p class="prise">$31</p>  
-                            </div>
-                        </a>    
-                    </div>
-                </li>
-                <li class="featured-list-item">
-                    <div class="photo">
-                        <img src="img/category-3.png" alt="Product3">
-                        <div class="overlay clearfix">    
-                            <ul class="overlay-icons">
-                                <li><button class="icon-1">Like</button></li>
-                                <li><button class="icon-2">Lines</button></li>
-                                <li><button class="icon-3">Clock</button></li>
-                                <li><button class="icon-4">ADD TO CART</button></li>
-                            </ul>
-                        </div>     
-                        <a href="#">                        
-                            <div class="bottom clearfix">
-                                <h3 class="name">YELLOW TSHIRT</h3>
-                                <p class="prise">21$</p>
-                            </div>
-                        </a>
-                    </div>
-                </li>
-                <li class="featured-list-item">
-                    <div class="photo">
-                        <img src="img/category-4.png" alt="Product4">
-                        <div class="overlay clearfix">    
-                            <ul class="overlay-icons">
-                                <li><button class="icon-1">Like</button></li>
-                                <li><button class="icon-2">Lines</button></li>
-                                <li><button class="icon-3">Clock</button></li>
-                                <li><button class="icon-4">ADD TO CART</button></li> 
-                            </ul>
-                        </div>
-                        <a href="#">                        
-                            <div class="bottom clearfix">
-                                <h3 class="name">COOL LINGERIE</h3>
-                                <p class="prise">56$</p>
-                            </div>
-                        </a>
-                    </div>
-                </li>
-            </ul>
-        </section>
-   </main>
-   <footer class="wrapper">
-       <div class="footer">
-            <p>All Rights Reserved © Dokan | Designed <span>ThemenGraph</span></p>
-        </div>
-    </footer>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="content">
+                    <p>All Rights Reserved © Dokan | Designed <span>ThemenGraph</span></p>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
