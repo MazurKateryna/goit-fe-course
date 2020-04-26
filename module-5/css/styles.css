@@ -105,20 +105,20 @@ img {
     opacity: 0.5;
 }
 
-.slider-card {
-    width: 1170px;
-    margin: 0 auto;
-}
-
 .slider-text {
+    width: 1170px;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 60%;
     transform: translate(-50%, -50%);
     font-family: 'Roboto';
     color: #ffffff;
     z-index: 2;
-    /* margin: 0 auto; */
+}
+
+.slider-bottom {
+    width: 1170px;
+    margin: 0 auto;
 }
 
 .slider-ctrl {
@@ -145,7 +145,7 @@ img {
 }
 
 .slider-right {
-    right: 20%;
+    right: 15%;
     background-image: url(../img/icon/right.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -200,7 +200,9 @@ img {
    font-family: Roboto;
    font-size: 0;
    margin: 0 auto;
+   padding: 0;
    padding-bottom: 100px;
+
 }
 
 .featured-list-item {
@@ -225,23 +227,22 @@ img {
     width: 256px;
     height: 40px;
     margin: 0;
-    padding: 0;
     background-color: #000000;
     background-size: 100%;
-    bottom: 0;
-    position: absolute;                                       
+    position: absolute;    
+    line-height: 40px; 
+    font-size: 18px;
+    font-weight: bold;  
+    color: #ffffff;                                
 }
 
 .name {
     float: left;
-    font-size: 18px;
-    width: 200px;
-    height: 40px;
-    line-height: 40px;
+    width: 190px;
     margin: 0;
-    color: #ffffff;
     background-color: #323232; 
-    text-align: left; 
+    text-align: left;
+    padding-left: 10px;
 }
 
 .featured-list-item:hover .name{
@@ -251,12 +252,7 @@ img {
 .prise {
     float: right;
     width: 56px;
-    height: 40px;
-    line-height: 40px;
-    color: #ffffff;
     background-color:rgba(255, 255,255, 0.5);
-    font-size: 18px;
-    font-weight: bold;
     margin: 0;
 }
 
