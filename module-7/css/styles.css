@@ -183,10 +183,16 @@ img {
 }
 
 .registration {
-   justify-content: start;
+ 
+}
+
+input {
+    display: block;
+    justify-content: start;
 }
 
 .comment {
+    display: flex;
     justify-content: end;
 }
 
