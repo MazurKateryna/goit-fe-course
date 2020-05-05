@@ -129,35 +129,19 @@ img {
 }
 
 .feature-list-item {
-    flex: 0 0 370px;
+    display: flex;
+    justify-content: space-between;
+    flex: 0 0 380px;
     margin-bottom: 40px;
-    padding-left: 60px;
-    background-repeat: no-repeat;
-    background-position: left;
 }
 
-.block1 {
-    background-image: url(../image/icons/clock.png);
+.feature-icon {
+    width: 35px;
+    height: 35px;
 }
 
-.block2 {
-    background-image: url(../image/icons/two.png);
-}
-
-.block3 {
-    background-image: url(../image/icons/COMPUTER\ _\ OK.png);
-}
-
-.block4 {
-    background-image: url(../image/icons/BOOK\ 2.png);
-}
-
-.block5 {
-    background-image: url(../image/icons/HOME.png);
-}
-
-.block6 {
-    background-image: url(../image/icons/digital.png);
+.feature-list__text {
+    margin-left: 30px;
 }
 
 .list-title {
