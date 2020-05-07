@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,23 +10,21 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header class="container">
+    <header class="wrapper">
         <nav class="navigation">
-            <p class="Logo">
-                <a href="#">Golden</a>
-            </p>
-            <ul class="navigation-menu">
-                <li> <a href="#"> HOME</a></li>
-                <li> <a href="#"> SERVICES</a></li>
-                <li> <a href="#"> PORTFLIO</a></li>
-                <li> <a href="#"> ABOUT</a></li>
-                <li> <a href="#"> CONTACT</a></li>
-            </ul>
+            <a href="#" class="logo">Golden</a>
+            <div class="navigation-menu">
+                <a href="#"> HOME</a>
+                <a href="#"> SERVICES</a>
+                <a href="#"> PORTFLIO</a>
+                <a href="#"> ABOUT</a>
+                <a href="#"> CONTACT</a>
+            </div>
         </nav>
     </header>
    
     <main>
-        <section class="feature container">
+        <section class="feature wrapper">
             <div class="feature-title">
                 <h2>SERVICES</h2>
                 <p>Lorem ipsum dolor sit amet consectetur.</p>
@@ -50,24 +47,24 @@
             </div>
         </section>
         <section class="part-2">
-            <div class="contact container">
-                <h2>CONTACT US</h2>
-                <p>Lorem ipsum dolor sit amet consectetur.</p>
-            </div>
-            <div class="modal container">
-                <form action="#">
-                    <div class="registration">
-                        <input type="text" id="fname" name="firstname" placeholder="YOUR NAME*" required>
-                        <input type="email" name="email-x" placeholder="YOUR EMAIL*" required> 
-                        <textarea id="subject" name="subject" placeholder="SUBJECT"></textarea>
-                    </div>
-                    <textarea class="comment" name="comment" placeholder="YOUR MESSAGE*" cols="40" rows="7" required></textarea>
-                    <button class="btn-submit" type="submit">SEND MESSAGE</button>
-                </form>
+            <div class="wrapper">
+                <div class="contact">
+                    <h2>CONTACT US</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+                <div class="modal">
+                    <form action="#" class="form">
+                        <div class="registration">
+                            <input type="text" id="fname" name="firstname" placeholder="YOUR NAME*" required>
+                            <input type="email" name="email-x" placeholder="YOUR EMAIL*" required> 
+                            <textarea id="subject" name="subject" placeholder="SUBJECT"></textarea>
+                        </div>
+                        <textarea class="comment" name="comment" placeholder="YOUR MESSAGE*" cols="40" rows="7" required></textarea>  
+                        <button class="btn-submit" type="submit">SEND MESSAGE</button>
+                    </form>
+                </div>
             </div>
         </section>
     </main>
-
-
 </body>
 </html>
