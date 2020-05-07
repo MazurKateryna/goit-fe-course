@@ -47,7 +47,6 @@ img {
     justify-content: space-between;
     width: 485px;
     font-size: 14px;
-    color: #000000;
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 700;
@@ -58,6 +57,7 @@ img {
 
 .navigation-menu a {  
     text-decoration: none;
+    color: #222222;
 }
 
 .navigation-menu a:hover {
