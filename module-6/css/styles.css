@@ -35,7 +35,6 @@ img {
     margin-bottom: 100px;
 }
 
-
 .logo {
     font-size: 30px;
     color: #95e1d3;
@@ -80,7 +79,6 @@ img {
 .navigation-menu a:hover::after, 
 .navigation-menu a:focus::after {
     transform: scaleX(1);
-
 }
 
 /*servive menu*/ 
