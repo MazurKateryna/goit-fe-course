@@ -30,8 +30,8 @@ img {
     display: flex;
     justify-content: space-between;
     margin: 0;
-    padding-top: 50px;
-    padding-bottom: 125px;
+    margin-top: 50px;
+    margin-bottom: 125px;
 }
 
 .logo {
@@ -134,15 +134,15 @@ img {
 }
 
 .item-1 {
-    background-image: url(../image/icons/Icon-Basket\ \(1\).png);
+    background-image: url(../image/icons/Icon-Basket.png);
 }
 
 .item-2 {
-    background-image: url(../image/icons/Group1.png);
+    background-image: url(../image/icons/Icon-Laptop.png);
 }
 
 .item-3 {
-    background-image: url(../image/icons/Icon-Locked\ \(1\).png);
+    background-image: url(../image/icons/Icon-Locked.png);
 }
 
 /*section backround*/
@@ -189,7 +189,6 @@ img {
     justify-content: space-between;
     align-items: ;
     width: 940px;
-
 }
 
 .registration {
