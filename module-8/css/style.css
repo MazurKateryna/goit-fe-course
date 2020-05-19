@@ -134,7 +134,14 @@ img {
     cursor: pointer;
 }
 
+.background-button:focus {
+    outline: none;
+}
+
 /* section partner */
+.partner {
+    margin-bottom: 70px;
+}
 
 .partner-title {
     font-size: 22px;
@@ -230,6 +237,10 @@ img {
     left: 50%;
     transform: translate(-50%, 0);
     cursor: pointer;
+}
+
+.partner-button:focus {
+    outline: none;
 }
 
 @media (min-width:320px) and (max-width:767px){
