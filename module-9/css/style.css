@@ -1,0 +1,261 @@
+/*my page*/
+html {
+    box-sizing: border-box; 
+}
+
+*, 
+*::before,  
+*::after {
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Montserrat', 'Roboto', sans-serif;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.wrapper {
+    min-width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* header*/
+.header {
+    position: relative;
+}
+
+.background {
+    min-width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    opacity: 0.95;
+    margin-bottom: 70px; 
+}
+
+.menu {
+    position: absolute;
+    top: 4%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.logo a {
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.menu-registration {
+    margin-top: 30px;
+}
+
+.menu-registration button {
+    width: 90px;
+    height: 40px;
+    font-family: "Montserrat";
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    background: none;
+    border: none;
+}
+
+.menu-registration button:hover {
+    border: 2px solid #fff;
+    border-radius: 20px;
+}
+
+.background-title {
+    font-size: 52px;
+    width: 600px;
+    margin: 0 auto;
+    color: #ffffff;
+    font-family: "Montserrat";
+    text-align: center;
+    margin-top: 160px;
+}
+
+.background-text {
+    width: 460px;
+    margin: 40px auto;
+    font-size: 24px;
+    color: #ffffff;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+.background-button {
+    width: 220px;
+    height: 40px;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-align: center;
+    background-color: #ff4e50;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.background-button:focus {
+    outline: none;
+}
+
+/* partner section*/
+ .partner-title {
+    font-size: 22px;
+    color: #333333;
+    font-family: "Montserrat";
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.partner-item {
+    min-width: 220px;
+    max-width: 320px;
+    margin-bottom: 30px;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.partner-item img {
+    margin: 0 auto;
+    border-radius: 50%;
+    margin-bottom: 20px;   
+}
+
+.partner-item_name::before {
+    position: absolute;
+    z-index: 1;
+    top: 45%;
+    left: 172px;
+    width: 40px;
+    height: 40px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+}
+
+.photo1::before {
+    content: url(../image/icons/tv.png);
+    background-color: #ff4e50;
+    padding: 5px;
+}
+
+.photo2::before {
+    content: url(../image/icons/cup.png);
+    background-color: #1cd7ad;
+    padding: 5px;
+}
+
+.photo3::before {
+    content: url(../image/icons/flask.png);
+    background-color: #ffa507;
+    padding: 6px;
+}
+
+.photo4::before {
+    content: url(../image/icons/letter.png);
+    background-color: #4e73db;
+    padding: 7px;
+}
+
+.partner-item_name {
+    width: 220px;
+    font-size: 14px;
+    color: #333333;
+    font-family: "Montserrat";
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.partner-item_text {
+    width: 220px;
+    font-size: 14px;
+    color: #666666;
+    font-family: "Roboto";
+    text-align: center;
+    margin: 0 auto;
+}
+
+.partner-button {
+    width: 192px;
+    height: 40px;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #ff4e50;
+    font-family: "Montserrat";
+    font-weight: 700;
+    border: 2px solid #ff4d4f;
+    border-radius: 50px;
+    background: none;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    cursor: pointer;
+    margin-bottom: 70px;
+}
+
+.partner-button:focus {
+    outline: none;
+} 
+
+/* media */
+@media (min-width: 320px) and (max-width: 767px){
+    .background {
+        height: 100%;
+        object-fit: none;
+    }
+    .logo {
+        order: 1;
+        text-align: center;
+        margin-top: 100px;
+    }
+    .menu-registration {
+        text-align: center;
+        margin-top: 0;
+    }
+    .background-title {
+        font-size: 30px;
+        width: 310px;
+        margin-top: 40px;
+    }
+    .background-text {
+        font-size: 18px;
+        width: 310px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1339px) {
+    .background {
+        height: 100%;
+        object-fit: none;
+    }
+    .background-title {
+        margin-top: 140px;
+    }
+    .background-text {
+
+        margin: 30px auto;
+    }
+
+}
