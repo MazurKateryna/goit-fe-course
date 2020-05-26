@@ -245,7 +245,7 @@ img {
     }
 }
 
-@media (min-width: 768px) and (max-width: 1339px) {
+@media (min-width: 768px) and (max-width: 1200px) {
     .background {
         height: 100%;
         object-fit: none;
@@ -254,7 +254,6 @@ img {
         margin-top: 140px;
     }
     .background-text {
-
         margin: 30px auto;
     }
 
