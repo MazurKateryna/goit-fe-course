@@ -223,7 +223,8 @@ img {
 @media (min-width: 320px) and (max-width: 767px){
     .background {
         height: 100%;
-        object-fit: none;
+        -o-object-fit: none;
+           object-fit: none;
     }
     .logo {
         order: 1;
@@ -248,7 +249,8 @@ img {
 @media (min-width: 768px) and (max-width: 1200px) {
     .background {
         height: 100%;
-        object-fit: none;
+        -o-object-fit: none;
+           object-fit: none;
     }
     .background-title {
         margin-top: 140px;
@@ -256,5 +258,4 @@ img {
     .background-text {
         margin: 30px auto;
     }
-
 }
