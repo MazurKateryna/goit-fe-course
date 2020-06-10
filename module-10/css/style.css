@@ -30,7 +30,6 @@ img {
 
 .wrapper {
     min-width: 100vw;
-    height: 100vh;
     margin: 0;
     padding: 0;
 }
@@ -42,7 +41,6 @@ img {
 
 /*header*/
 .banner {
-    height: 1000px;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(233, 130, 131, 0.8)), to(rgba(238, 215, 138, 0.8))), url(../img/png-image/banner-min.png);
     background-image: -o-linear-gradient(rgba(233, 130, 131, 0.8) 0%, rgba(238, 215, 138, 0.8) 100%), url(../img/png-image/banner-min.png);
     background-image: linear-gradient(rgba(233, 130, 131, 0.8) 0%, rgba(238, 215, 138, 0.8) 100%), url(../img/png-image/banner-min.png);
